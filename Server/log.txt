@@ -1,19 +1,4 @@
-1703955731941: / New Request Recieved
-1703955739854: /about New Request Recieved
-1703955772248: /about?name=Vatsal New Request Recieved
-1704005457819: /about?name=Vatsal New Request Recieved
-1704005464643: /about?name=Vatsal New Request Recieved
-1704005477823: /about?name=Vatsal New Request Recieved
-1704026389536: / New Request Recieved
-1704026402022: /about New Request Recieved
-1704026458693: /about New Request Recieved
-1704026512345: /about New Request Recieved
-1704026552801: /about New Request Recieved
-1704026565465: /about New Request Recieved
-1704026621818: /about New Request Recieved
-1704026725339: /about New Request Recieved
-1704026778948: /about New Request Recieved
-1704026784536: /about New Request Recieved
-1704026861744: /search New Request Recieved
-1704026876537: /search New Request Recieved
-1704026891050: /search New Request Recieved
+1704027960293: GET /search New Request Recieved
+1704028217069: GET /signup New Request Recieved
+1704028238622: POST /signup New Request Recieved
+1704028246947: GET /signup New Request Recieved
