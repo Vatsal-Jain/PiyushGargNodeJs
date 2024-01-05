@@ -1,24 +1,22 @@
 const express = require("express");
-const users = require("./MOCK_DATA.json");
 const app = express();
 const Port = 8000;
 const dotenv = require("dotenv");
-const fs = require("fs");
-const mongoose = require("mongoose");
+
 const userRouter = require("./routes/user.js");
+const { connectDB } = require("./db/index.js");
 dotenv.config({
   path: "./.env",
 });
 
 //connect mongoose
 
-mongoose
-  .connect(`${process.env.MONGODB_URI}/${process.env.DB_NAME}`)
+connectDB()
   .then(() => {
-    console.log("mongdb Connected");
+    console.log("then bloack of connectDB");
   })
   .catch((error) => {
-    console.log("Mongodb connecteion error", error);
+    console.log("catch block of connectDb error is", error);
   });
 
 // Schema
